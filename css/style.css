@@ -13,19 +13,17 @@
 
 header {
   width: 100%;
-
-  display: flex;
 }
 
-nav {
+.navbar {
   width: 100%;
   display: flex;
-}
-
-.links a,
-li {
-  width: 100%;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 3rem;
 }
